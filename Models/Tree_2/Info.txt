@@ -1,0 +1,4 @@
+Tree 2:
+Height = 0.09476m
+Trunk 1 Diameter = 0.010820m
+Trunk 2 Diameter = 0.007438m

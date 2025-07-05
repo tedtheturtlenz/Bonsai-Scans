@@ -1,0 +1,4 @@
+Tree 5:
+Height = 0.158487m
+Trunk Diameter = 0.016667m
+Pot Height = 0.025474m
