@@ -2,3 +2,4 @@ Tree 7:
 Height = 0.182410m
 Trunk Diameter = 0.028760m
 Pot Height = 0.032176m
+SketchFab Link: https://skfb.ly/pzKA6

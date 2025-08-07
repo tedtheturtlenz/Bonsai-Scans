@@ -2,3 +2,4 @@ Tree 10:
 Height = 0.183972m
 Trunk Diameter = 0.020164m
 Pot Height = 0.032846m
+SketchFab Link: https://skfb.ly/pzKAN

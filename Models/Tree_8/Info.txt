@@ -2,3 +2,4 @@ Tree 8:
 Height = 0.212011m
 Trunk Diameter = 0.025009m
 Pot Height = 0.038191m
+SketchFab Link: https://skfb.ly/pzKA8
