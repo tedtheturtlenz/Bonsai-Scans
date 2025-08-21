@@ -116,26 +116,28 @@
     const currentYear = new Date().getFullYear();
 
     const trees = [
-      { species: "Juniperus chinensis 'Sargentii'", year: 2010, model:  "https://sketchfab.com/models/7ab40ad1a1644ee5a717b2ae5f8437c3/embed" },
-      { species: "Lonicera nitida", year: 2024, model:  "https://sketchfab.com/models/92d1e4665c6d4705bc82a567c8511042/embed"  },
-      { species: "Picea glauca", year: 2023, model:  "https://sketchfab.com/models/3f48c58be4204ba1887353f8898451e7/embed"  },
-      { species: "Serissa japonica", year: 2023, model:  "https://sketchfab.com/models/b4de96ed27564cbb8c2adc77cbdc17dc/embed"  },
-      { species: "Juniperus chinensis 'Sargentii'", year: 2005, model:  "https://sketchfab.com/models/5c7b3cd3824741098aaab6438b5e4dc4/embed"  },
-      { species: "Juniperus procumbens 'nana'", year: 1991, model:  "https://sketchfab.com/models/41012eb4df9f4c5899e56e3b6eaaf8b2/embed"  },
-      { species: "Chamaecyparis obtusa", year: 1991 , model:  "https://sketchfab.com/models/8d81bbb53d7b4f27b64bb25f1cbc70dd/embed" },
-      { species: "Corokia cotoneaster 'Anton's dwarf'", year: 1995 , model:  "https://sketchfab.com/models/1cfed7efffd842c299c0c2414e72af4a/embed" },
-      { species: "Ficus burtt-davyi", year: 2014 , model:  "https://sketchfab.com/models/c39488c01100498e91aeb4a13aeb8ce1/embed" },
-      { species: "Ulmus parvifolia", year: 1986 , model:  "https://sketchfab.com/models/007283fb4637402d9bd1c58e30964a3e/embed" },
-      { species: "Azalea satsuki 'Kaizan'", year: 2010 , model:  "https://sketchfab.com/models/65525e03381e4172877ede7f39f8d072/embed" },
-      { species: "Cotoneaster microphyllus", year: 2015 , model:  "https://sketchfab.com/models/12fe11e953464f1eaf641f8975a4016b/embed" },
-      { species: "Crataegus monogyna", year: 2001 , model:  "https://sketchfab.com/models/e5cdd76ddbb9473aa87369fef023e9c1/embed" },
-      { species: "Chamaecyparis obtusa 'nana'", year: 2003 , model:  "https://sketchfab.com/models/e1c363b8c57244f098111cc5460f9a41/embed" },
-      { species: "Ulmus parvifolia", year: 2021 , model:  "https://sketchfab.com/models/9271c5450f894074a926baed67be35fc/embed" },
-      { species: "Picea abies 'little gem'", year: 2023 , model:  "https://sketchfab.com/models/b7d2d97cc2fc47859a22a6c83a0c8fbf/embed" },
-      { species: "Cotoneaster horizontalis", year: 2024 , model:  "https://sketchfab.com/models/9fb523861ead425b8831bcd665ea3377/embed" },
-      { species: "Juniperus procumbens 'nana'", year: 2021 , model:  "https://sketchfab.com/models/f7176a2c5fc44d65becf77048bb08c62/embed" },
-      { species: "Chamaecyparis lawsonia 'green globe'", year: 2023 , model:  "https://sketchfab.com/models/2cdbd377bda047f8a352d5c82a1d8b28/embed" },
-      { species: "Cotoneaster horizontalis", year: 2021 , model:  "https://sketchfab.com/models/ccc631304489404cb6b4e5083558c5f1/embed" }
+      { species: "<i>Juniperus chinensis</i> 'Sargentii'", year: 2010, model:  "https://sketchfab.com/models/7ab40ad1a1644ee5a717b2ae5f8437c3/embed" },
+      { species: "<i>Lonicera nitida</i>", year: 2024, model:  "https://sketchfab.com/models/92d1e4665c6d4705bc82a567c8511042/embed"  },
+      { species: "<i>Picea glauca</i>", year: 2023, model:  "https://sketchfab.com/models/3f48c58be4204ba1887353f8898451e7/embed"  },
+      { species: "<i>Serissa japonica</i>", year: 2023, model:  "https://sketchfab.com/models/b4de96ed27564cbb8c2adc77cbdc17dc/embed"  },
+      { species: "<i>Juniperus chinensis</i> 'Sargentii'", year: 2005, model:  "https://sketchfab.com/models/5c7b3cd3824741098aaab6438b5e4dc4/embed"  },
+      { species: "<i>Juniperus procumbens</i> 'nana'", year: 1991, model:  "https://sketchfab.com/models/41012eb4df9f4c5899e56e3b6eaaf8b2/embed"  },
+      { species: "<i>Chamaecyparis obtusa</i>", year: 1991 , model:  "https://sketchfab.com/models/8d81bbb53d7b4f27b64bb25f1cbc70dd/embed" },
+      { species: "<i>Corokia cotoneaster</i> 'Anton's dwarf'", year: 1995 , model:  "https://sketchfab.com/models/1cfed7efffd842c299c0c2414e72af4a/embed" },
+      { species: "<i>Ficus burtt-davyi</i>", year: 2014 , model:  "https://sketchfab.com/models/c39488c01100498e91aeb4a13aeb8ce1/embed" },
+      { species: "<i>Ulmus parvifolia</i>", year: 1986 , model:  "https://sketchfab.com/models/007283fb4637402d9bd1c58e30964a3e/embed" },
+      { species: "<i>Azalea satsuki</i> 'Kaizan'", year: 2010 , model:  "https://sketchfab.com/models/65525e03381e4172877ede7f39f8d072/embed" },
+      { species: "<i>Cotoneaster microphyllus</i>", year: 2015 , model:  "https://sketchfab.com/models/12fe11e953464f1eaf641f8975a4016b/embed" },
+      { species: "<i>Crataegus monogyna</i>", year: 2001 , model:  "https://sketchfab.com/models/e5cdd76ddbb9473aa87369fef023e9c1/embed" },
+      { species: "<i>Chamaecyparis obtusa</i> 'nana'", year: 2003 , model:  "https://sketchfab.com/models/e1c363b8c57244f098111cc5460f9a41/embed" },
+      { species: "<i>Ulmus parvifolia</i>", year: 2021 , model:  "https://sketchfab.com/models/9271c5450f894074a926baed67be35fc/embed" },
+      { species: "<i>Picea abies</i> 'little gem'", year: 2023 , model:  "https://sketchfab.com/models/b7d2d97cc2fc47859a22a6c83a0c8fbf/embed" },
+      { species: "<i>Cotoneaster horizontalis</i>", year: 2024 , model:  "https://sketchfab.com/models/9fb523861ead425b8831bcd665ea3377/embed" },
+      { species: "<i>Juniperus procumbens</i> 'nana'", year: 2021 , model:  "https://sketchfab.com/models/f7176a2c5fc44d65becf77048bb08c62/embed" },
+      { species: "<i>Chamaecyparis lawsonia</i> 'green globe'", year: 2023 , model:  "https://sketchfab.com/models/2cdbd377bda047f8a352d5c82a1d8b28/embed" },
+      { species: "<i>Cotoneaster horizontalis</i>", year: 2021 , model:  "https://sketchfab.com/models/ccc631304489404cb6b4e5083558c5f1/embed" },
+      { species: "Redwood", year: 2021 , model:  "https://sketchfab.com/models/086deeda2a114f0cbf7028b47c4be54f/embed" },
+      { species: "Spruce", year: 2021 , model:  "https://sketchfab.com/models/f0d6fd5379434adb88531fe95ff72ebb/embed" }
     ];
 
     
