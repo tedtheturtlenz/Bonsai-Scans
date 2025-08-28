@@ -1,5 +1,5 @@
-Tree 11:
-Height = 
-Trunk Diameter = 
-Pot Height = 
+Tree 12:
+Height = 0.1206m
+Trunk Diameter = 0.02160m
+Pot Height = 0.01978m
 SketchFab Link: https://skfb.ly/pzKAU

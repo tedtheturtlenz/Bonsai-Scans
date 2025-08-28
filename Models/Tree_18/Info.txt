@@ -1,5 +1,5 @@
 Tree 18:
-Height = 
-Trunk Diameter = 
-Pot Height = 
+Height = 0.123645m
+Trunk Diameter = 0.023815m
+Pot Height = 0.026116m
 SketchFab Link: https://skfb.ly/pzOXI
